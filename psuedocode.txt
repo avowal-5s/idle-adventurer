@@ -1,0 +1,33 @@
+index.html:
+a entry text appears saying "Welcome"
+two buttons under welcome, new game or load game
+new game will set everything to zero load game will read local data to adjust items, total score, and mana gems
+
+game.html:
+a monster with a health bar above it
+on the bottom of the screen is no of mana gems
+bottom right is an icon which when clicked takes you to store.html
+when mouseover above the health bar, mana gems icon, and store icon you get a short about
+when you click on the monster, depending on your equipment you do x damage, you also get x mana gem.
+so health goes down by x, total score goes up by x, mana gems go up by x
+when the monster dies you get its total health as mana gems and a new monster spawns
+
+store.html:
+contains the three weapons with the first already unlocked
+contains consumables that multiply or add to x
+when mouseover you get a short about me 
+when you click you buy the item, giving it to you and also decreasing your mana gems by the cost
+
+main mechanics:
+
+Damage(x): x starts at 0. the base unlocked weapon adds +1 to x. other weapons also add damage by 10s (1, 10, 100). two potions in store. when is a multiplicative effect on x, the other is an addition
+
+Mana gems: Damage adds to managems. so managems will be += x. when purchasing anything mana gems will be subtracted by the cost.
+
+Total score: it is the total damage being done. so exactly calculated like the managems but unable to be subtracted.
+
+health: a limit on the amount of damage the monster can take, once it exceeds the amount the monster dies.
+
+store: a store with weapon upgrades and potions. it checks if you are able to afford the item with current mana gems, if yes it subtracts the cost from your mana gems.
+
+monster: the object you click to damage. once it dies (health =< 0) is replaced by a new monster.
