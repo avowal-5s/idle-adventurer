@@ -1,0 +1,15 @@
+Homescreen:
+Background
+Moving welcome text
+two buttons new game and load game
+
+Game:
+goblin appears
+start with club
+2 scores shown. health bar above enemy, and mana gems bottom of screen.
+bottom right has shop icon
+tracking total score, enemy health, and mana coins
+
+shop:
+3 objects. npc, items, and mana coins
+has a button to go back to game.
