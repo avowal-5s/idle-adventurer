@@ -1,0 +1,48 @@
+body {
+  background-image: url('./artAssets/home.jpeg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.button {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  background-color: rgba(255, 0, 0, 0.592);
+}
+
+#homeScreen {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  text-align: center;
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#menuBar {
+  font-size: 100px;
+  color: azure;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0, 0.186);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#menuBar {
+  opacity: 0;
+  transform: scale(0.1); 
+  transition: all 0.8s ease-out;
+}
+
+#menuBar.show {
+  opacity: 1;
+  transform: scale(1);
+}

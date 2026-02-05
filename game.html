@@ -3,9 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="./app.js"></script>
+  <link rel="stylesheet" href="style-game.css">
   <title>Dungeon Crawler</title>
 </head>
 <body>
-  
+  <div id="gameScreen">
+    <section id="healthBar">
+      <img src="./artAssets/healthBar.png" alt="Health Bar">
+    </section>
+    <section id="monster">
+      <img src="./artAssets/stock.png" alt="STOCK">
+    </section>
+    <section id="bottomBar">
+      <div id="coins">
+        0
+        <img src="./artAssets/goldCoin.png" alt="Coins">
+      </div>
+      <div id="store">
+        <img src="./artAssets/store.png" alt="Store">
+      </div>
+    </section>
+  </div>
 </body>
 </html>
