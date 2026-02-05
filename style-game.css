@@ -19,6 +19,7 @@ body {
   justify-content: space-between;
   align-content: space-between;
   font-size: 50px;
+  gap: 50px;
 }
 
 #store {
@@ -43,6 +44,13 @@ body {
 #coins img {
   width: 30%;
   height: auto;
+}
+
+#store img, #coins {
+  background-color: rgba(67, 62, 69, 0.672);
+  border-radius: 20px;
+  padding: 20px;
+  border: 10px solid black;
 }
 
 #healthBar{
