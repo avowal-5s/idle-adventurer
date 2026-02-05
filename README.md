@@ -23,4 +23,6 @@ A Medieval fantasy adventurer idle game, powered by javascript.
 - [ ] Polish Design
 - [x] Psuedocode
 ***
+## *Wireframe*:
+***
 ## *Credits*:
