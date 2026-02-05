@@ -24,5 +24,8 @@ A Medieval fantasy adventurer idle game, powered by javascript.
 - [x] Psuedocode
 ***
 ## *Wireframe*:
+![Image](./wireframe/entry-page-wireframe.png)
+![Image](./wireframe/main-game-wireframe.png)
+![Image](./wireframe/store-wireframe.png)
 ***
 ## *Credits*:
