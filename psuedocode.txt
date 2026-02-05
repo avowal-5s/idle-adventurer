@@ -15,6 +15,7 @@ when the monster dies you get its total health as mana gems and a new monster sp
 store.html:
 contains the three weapons with the first already unlocked
 contains consumables that multiply or add to x
+contains NPCs that do auto damage
 when mouseover you get a short about me 
 when you click you buy the item, giving it to you and also decreasing your mana gems by the cost
 
@@ -28,6 +29,6 @@ Total score: it is the total damage being done. so exactly calculated like the m
 
 health: a limit on the amount of damage the monster can take, once it exceeds the amount the monster dies.
 
-store: a store with weapon upgrades and potions. it checks if you are able to afford the item with current mana gems, if yes it subtracts the cost from your mana gems.
+store: a store with weapon upgrades and potions. it checks if you are able to afford the item with current mana gems, if yes it subtracts the cost from your mana gems. NPCs do auto damage
 
 monster: the object you click to damage. once it dies (health =< 0) is replaced by a new monster.
