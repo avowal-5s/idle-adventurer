@@ -31,6 +31,7 @@ body {
   width: 30%;
   height: 80%;
   background-color: rgba(0, 0, 0, 0.091);
+  cursor: pointer;
 }
 
 #coins {
